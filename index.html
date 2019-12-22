@@ -88,10 +88,18 @@
                 easily pass radian values for angles as follows:
             </p>
             <pre><code>
-                x = sin(degrees / 360 * 2π)
+                julia> degrees = 90
+                90
+                
+                julia> sin(90 / 360 * 2π)
+                1.0                
             </code></pre>
             <pre><code>
-                x = exp(log(x+1))
+                julia> exp(log(exp(1)))
+                2.718281828459045
+                
+                julia> exp(1)
+                2.718281828459045                
             </code></pre>
             <p>And there are many more, but these are just to represent.</p>
             <h3>You can visit Julialang website at <a href="https://julialang.org/">https://julialang.org/</a>or just click the logo above.<h3>
